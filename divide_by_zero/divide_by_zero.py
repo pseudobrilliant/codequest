@@ -48,6 +48,6 @@ for _ in range(num_cases):
     elif not divisor:
         print("Invalid Divisor")
     elif not divide:
-        print("Divide By Zero")
+        print("Divide By Zero") 
     else:
         print(better_round(output, 1))
