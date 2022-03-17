@@ -5,5 +5,8 @@ SEPARATOR = " "
 cases = int(sys.stdin.readline().rstrip())
 
 for caseNum in range(cases):
+
+    # Read in the next line and split as 2 float values speed and distance
     line = sys.stdin.readline().rstrip()
-    val1, val2 = (float(val) for val in line.split(SEPARATOR))
+    x, y = (float(val) for val in line.split(SEPARATOR))
+
